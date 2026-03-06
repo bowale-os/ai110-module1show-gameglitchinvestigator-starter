@@ -10,10 +10,19 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 ---
 
+it looked like it worked but the limit generation for diffulties felt off, the number was 69 but it kept prompting me to go higher
+- the developer debug info section only updates during certain cases, and that was strange..
+the developer debug section also did not update on my first attempt
+- the attempts left section was not dynamic
+
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
+i used clasude to work on this
+
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
+the difficulty was not being updated dymically and claude figured that it was not being stores in session state, and showed me evidence with lines were it was excluded. It suggested i add difficulty to session_state and that solved the issue..
+
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
 ---
@@ -39,5 +48,11 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+
+  -I learned the importance of pausing and thinking before coding through this project.
+
 - What is one thing you would do differently next time you work with AI on a coding task?
+
+
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+  - 
